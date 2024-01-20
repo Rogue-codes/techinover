@@ -1,5 +1,5 @@
 import frame from './Framee.svg'
-import lady from './Lady.svg'
+import lady from './lady.svg'
 import davido from './Davido.svg'
 import careers from './careers.svg'
 import stats from './stats.svg'
