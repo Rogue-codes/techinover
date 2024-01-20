@@ -1,0 +1,26 @@
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,300,400&f[]=clash-display@500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "product-sans";
+  src: url('./font/ProductSansBold.ttf');
+}
+
+@font-face {
+  font-family: "Druk-Wide";
+  src: url('./font/FontsFree-Net-Druk-Wide-Bold.ttf');
+}
+
+.product-sans{
+  font-family: "product-sans"; 
+}
+
+.druk{
+  font-family: "Druk-Wide";
+}
+
+.clash{
+  font-family: 'Clash Display', sans-serif;
+}
