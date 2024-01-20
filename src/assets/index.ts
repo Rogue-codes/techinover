@@ -1,6 +1,6 @@
 import frame from './Framee.svg'
 import lady from './lady.svg'
-import davido from './Davido.svg'
+import davido from './davido.svg'
 import careers from './careers.svg'
 import stats from './stats.svg'
 import statsframe from './statsframe.svg'
