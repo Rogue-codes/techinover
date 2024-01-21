@@ -1,9 +1,21 @@
+import { useRef } from "react";
 import { Icons } from "../../icons";
+import { fadeUp1, fadeUp2, fadeUp3 } from "../../utils/framer-motion-variants";
+import { motion } from "framer-motion";
 
 export default function Footer() {
+  const scrollRef = useRef(null);
+
   return (
     <footer className="w-full text-white py-[3.75rem] bg-black px-[4.17vw]">
-      <div className="w-full flex justify-between items-start">
+      <motion.div
+        variants={fadeUp1}
+        viewport={{ once: true }}
+        initial="hide"
+        whileInView="show"
+        ref={scrollRef}
+        className="w-full flex justify-between items-start"
+      >
         <div className="druk w-[30.14vw] text-xl font-bold">
           <p>SHORT LINE ABOUT US</p>
           <p>THREE WORDS HERE</p>
@@ -28,11 +40,25 @@ export default function Footer() {
             <li>Contact</li>
           </ul>
         </div>
-      </div>
+      </motion.div>
 
-      <hr className="my-8" />
+      <motion.hr
+        variants={fadeUp2}
+        viewport={{ once: true }}
+        initial="hide"
+        whileInView="show"
+        ref={scrollRef}
+        className="my-8"
+      />
 
-      <div className="clash flex justify-between items-center">
+      <motion.div
+        variants={fadeUp3}
+        viewport={{ once: true }}
+        initial="hide"
+        whileInView="show"
+        ref={scrollRef}
+        className="clash flex justify-between items-center"
+      >
         <div className="w-[23.12vw] flex justify-between items-center">
           <div className="flex justify-between items-center gap-5">
             <p>2022</p>
@@ -48,7 +74,7 @@ export default function Footer() {
           <p>TERMS & CONDITIONS</p>
           <p>PRIVACY POLICY</p>
         </div>
-      </div>
+      </motion.div>
     </footer>
   );
 }
