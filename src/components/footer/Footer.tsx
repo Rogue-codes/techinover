@@ -14,20 +14,20 @@ export default function Footer() {
         initial="hide"
         whileInView="show"
         ref={scrollRef}
-        className="w-full flex justify-between items-start"
+        className="w-full flex-col lg:flex-row justify-between items-start"
       >
-        <div className="druk w-[30.14vw] text-xl font-bold">
+        <div className="druk w-full lg:w-[30.14vw] text-xl font-bold">
           <p>SHORT LINE ABOUT US</p>
           <p>THREE WORDS HERE</p>
         </div>
 
-        <div className="w-[8vw] druk text-xl font-bold">
+        <div className="w-full lg:w-[8vw] mt-6 lg:mt-0 druk text-xl font-bold">
           <p>CONNECT</p>
           <p>WITH</p>
           <p>US</p>
         </div>
 
-        <div className="clash text-xs font-medium w-[15.14vw] flex justify-between items-center">
+        <div className="clash text-md mt-6 lg:mt-0  lg:text-xs font-medium w-full lg:w-[15.14vw] flex justify-between items-center">
           <ul>
             <li>Twitter</li>
             <li>Discord</li>
@@ -57,9 +57,9 @@ export default function Footer() {
         initial="hide"
         whileInView="show"
         ref={scrollRef}
-        className="clash flex justify-between items-center"
+        className="clash flex-col lg:flex-row justify-between items-center"
       >
-        <div className="w-[23.12vw] flex justify-between items-center">
+        <div className="w-full lg:w-[23.12vw] flex justify-between items-center">
           <div className="flex justify-between items-center gap-5">
             <p>2022</p>
             <Icons.dot />
@@ -70,7 +70,7 @@ export default function Footer() {
             <p>2022</p>
           </div>
         </div>
-        <div className="w-[27.75vw] flex justify-between items-center">
+        <div className="w-full mt-6 lg:mt-0 lg:w-[27.75vw] flex justify-between items-center">
           <p>TERMS & CONDITIONS</p>
           <p>PRIVACY POLICY</p>
         </div>

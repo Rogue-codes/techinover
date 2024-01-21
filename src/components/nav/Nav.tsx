@@ -1,3 +1,4 @@
+import { HambergerMenu } from "iconsax-react";
 
 export default function Nav() {
   return (
@@ -12,6 +13,8 @@ export default function Nav() {
             <button className="px-6 py-[10px] bg-transparent text-primary">Sign up</button>
             <button className="px-6 py-[10px] bg-primary text-black">Log in</button>
          </div>
+
+         <HambergerMenu size={25} className="text-primary font-bold lg:hidden"/>
     </nav>
   )
 }
