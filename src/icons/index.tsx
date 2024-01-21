@@ -27,6 +27,32 @@ export const Icons = {
     </svg>
   ),
 
+  nextwhite: (props: IconProps) => (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="17"
+      height="15"
+      viewBox="0 0 17 15"
+      fill="none"
+      {...props}
+    >
+      <path
+        d="M15.75 7.27435L0.75 7.27435"
+        stroke="#fff"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M9.7002 13.2988L15.7502 7.27476L9.7002 1.24976"
+        stroke="#fff"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  ),
+
   dot: (props: IconProps) => (
     <svg
       xmlns="http://www.w3.org/2000/svg"
