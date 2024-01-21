@@ -11,6 +11,9 @@
   },
   "dependencies": {
     "framer-motion": "^10.18.0",
+    "i": "^0.3.7",
+    "iconsax-react": "^0.0.8",
+    "npm": "^10.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

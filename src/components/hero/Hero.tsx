@@ -60,7 +60,7 @@ export default function Hero() {
         }
         transition={{ duration: 1, delay: 1 }}
         viewport={{ once: true }}
-        className="absolute left-[10%] lg:left-[40rem] h-[29.75rem] top-[35.25rem] lg:top-[23.25rem] w-[80%] lg:w-[26.11vw] z-50"
+        className="absolute left-[10%] lg:left-[40rem] h-[29.75rem] top-[39.25rem] lg:top-[23.25rem] w-[80%] lg:w-[26.11vw] z-50"
       >
         <img
           onLoad={() => setIsLoaded(true)}
