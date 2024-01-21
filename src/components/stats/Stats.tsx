@@ -3,10 +3,10 @@ import { Icons } from "../../icons";
 
 export default function Stats() {
   return (
-    <div className="w-full flex justify-center items-center">
-      <div className="relative w-1/2 h-[46rem] bg-primary">
-        <div className="relative px-[4.5rem] py-24 z-10">
-          <h2 className="druk w-[39.58vw] text-4xl font-bold leading-[]52px ">
+    <div className="w-full flex flex-col lg:flex-row justify-center items-center">
+      <div className="relative w-full lg:w-1/2 lg:h-[46rem] bg-primary">
+        <div className="relative px-8 lg:px-[4.5rem] py-24 z-10">
+          <h2 className="druk w-full lg:w-[39.58vw] text-xl lg:text-4xl font-bold leading-[]52px ">
             USE YOUR STATS TO MAKE MOVES
           </h2>
           <p className="text-lg mt-[22px] leading-8">
@@ -36,10 +36,10 @@ export default function Stats() {
         />
       </div>
 
-      <div className="w-1/2 h-[46rem] bg-[#000] flex justify-center items-center">
-        <div className="w-[77.5%] bg-primary h-[31.5rem]">
+      <div className="w-full lg:w-1/2 h-[30rem] lg:h-[46rem] bg-[#000] flex justify-center items-center">
+        <div className="w-[77.5%] bg-primary lg:h-[31.5rem]">
             <div className="w-full h-full ml-[10px] -mt-[10px]">
-                <img src={statsframe} className="w-full object-cover h-full" alt="" />
+                <img src={statsframe} className="w-full object-contain lg:object-cover h-full" alt="" />
             </div>
         </div>
       </div>

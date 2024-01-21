@@ -8,10 +8,10 @@ import WeHelp from "./components/wehelp/WeHelp";
 
 function App() {
   return (
-    <div className="relative">
-      <Nav />
+    <div className="relative overflow-hidden">
+      {/* <Nav /> */}
       <Hero />
-      <CareersInYourHand />
+       <CareersInYourHand />
       <Stats />
       <WeHelp />
       <Join />

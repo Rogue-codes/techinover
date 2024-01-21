@@ -4,17 +4,17 @@ export default function Join() {
   const artistArr = [wizzy, burna, tiwa, rema, adekunle];
   return (
     <div className="w-full relative py-[3.75rem] bg-[#000]">
-      <h2 className="druk relative z-20 leading-[59px] text-center w-[49.67%] text-4xl text-white mx-auto">
+      <h2 className="druk relative z-20 leading-[59px] text-center w-full lg:w-[49.67%] text-2xl lg:text-4xl text-white mx-auto">
         JOIN TOP ARTISTS, BUILD YOUR{" "}
         <span className="text-primary">FANBASE</span>
       </h2>
 
-      <p className="product-sans relative z-20 w-[39%] mx-auto text-center mt-[1.125rem] text-[#6F767E] text-lg leading-8">
+      <p className="product-sans relative z-20 w-full lg:w-[39%] mx-auto text-center mt-[1.125rem] text-[#6F767E] text-lg leading-8">
         Figma files can also be downloaded from our store. These files include
         the latest Figma features and are synced
       </p>
 
-      <div className="w-full flex justify-between items-center px-[4.17vw]">
+      <div className="w-full flex justify-between items-center px-8 lg:px-[4.17vw]">
         {artistArr.map((artist, index) => (
           <div
             className={`${
